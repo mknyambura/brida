@@ -237,7 +237,9 @@ function Home() {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-8'>
+
+                {/* Awards  */}
+                <div id='awards' className='flex flex-col gap-8'>
                     <div className='flex flex-col gap-4'>
                         <div className='flex flex-row gap-8'>
                             <button className='bg-[#0000FF] rounded-xl px-2 py-2' disabled>

@@ -4,6 +4,7 @@ import './App.css';
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from './components/Home/Home';
 import AboutUs from './components/AboutUs/AboutUs';
+import Article from './components/Article/Article';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/aboutUs' element={<AboutUs/>}/>
+        <Route path='/about-us' element={<AboutUs/>}/>
+        <Route path='/blog-article' element={<Article/>}/>
       </Routes>
     </div>
   );
