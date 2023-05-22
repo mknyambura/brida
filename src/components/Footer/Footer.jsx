@@ -69,7 +69,7 @@ function Footer() {
         </div>
         <div className='bg-[#060919] flex flex-col items-center gap-10'>
             <div className='text-[#FF9B00] bg-[#FF9B00] h-0.5 w-3/4'></div>
-            <p className='mb-16'>© Copyright Mercy Faith Nyambura Kariuki ⋅ 2023</p>
+            <p className='mb-16'>© Designed by Mercy Faith Nyambura Kariuki ⋅ 2023</p>
         </div>
 
     </>
