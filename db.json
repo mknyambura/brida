@@ -1,0 +1,94 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "Tips on choosing a university",
+            "image": "article1.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 2,
+            "title": "Tips on choosing a course",
+            "image": "article2.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 3,
+            "title": "Tips on choosing a university",
+            "image": "article3.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 4,
+            "title": "Tips on choosing a course",
+            "image": "article4.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 5,
+            "title": "Tips on choosing a university",
+            "image": "article5.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 6,
+            "title": "Tips on choosing a course",
+            "image": "article6.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 7,
+            "title": "Tips on choosing a university",
+            "image": "article7.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 5,
+            "title": "Tips on choosing a course",
+            "image": "article8.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 9,
+            "title": "Tips on choosing a university",
+            "image": "article9.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 10,
+            "title": "Tips on choosing a course",
+            "image": "article2.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 11,
+            "title": "Tips on choosing a university",
+            "image": "article6.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 12,
+            "title": "Tips on choosing a course",
+            "image": "article1.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 13,
+            "title": "Tips on choosing a university",
+            "image": "article1.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 14,
+            "title": "Tips on choosing a course",
+            "image": "article1.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        },
+        {
+            "id": 15,
+            "title": "Tips on choosing a university",
+            "image": "article1.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia modi, autem architecto voluptate, deserunt nobis velit quam molestias, quos perferendis aut quidem quasi! Repellat expedita animi saepe excepturi dignissimos."
+        }
+    ]
+}
