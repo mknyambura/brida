@@ -14,10 +14,12 @@ function Footer() {
         
         <div className='footer bg-[#060919] flex flex-row justify-between px-16 py-16'>
             <div className='flex flex-col gap-8 w-1/4'>
+                <a href='#home'>
                 <div className='flex flex-row w-1/2 gap-4 items-center'>
                     <img src={logo} alt="" />
                     <h1 className='font-bold sm:text-xl md:text-2xl lg:text-3xl'>brida.</h1>
                 </div>
+                </a>
                 <p className='text-slate-400 text-center'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                 <div className='flex flex-row items-center sm:gap-6 gap-8'>
                     <img src={facebook} alt="" />
@@ -35,10 +37,9 @@ function Footer() {
                     </div>
                     <div className='flex flex-col gap-5'v>
                         <Link to='/'>Home</Link>
-                        <h1>Portfolios</h1>
-                        <h1>Services</h1>
-                        <h1>Works</h1>
-                        <h1>Career</h1>
+                        <Link to='#' className='hover:text-[#ff9b00]'>Portfolios</Link>
+                        <Link to='#' className='hover:text-[#ff9b00]'>Services</Link>
+                        <Link to='#' className='hover:text-[#ff9b00]'>Works</Link>
                     </div>
                 </div>
 
@@ -47,9 +48,9 @@ function Footer() {
                         <h1 className='text-xl font-bold'>Company</h1>
                     </div>
                     <div className='flex flex-col gap-5'>
-                        <h1>Terms Conditions</h1>
-                        <h1>Privacy Policy</h1>
-                        <h1>Cookies</h1>
+                        <Link to='#' className='hover:text-[#ff9b00]'>Terms Conditions</Link>
+                        <Link to='#' className='hover:text-[#ff9b00]'>Privacy Policy</Link>
+                        <Link to='#' className='hover:text-[#ff9b00]'>Cookies</Link>
                         <Link to='/careers' className='hover:text-[#FF9B00]'>Careers</Link>
                     </div>
                 </div>
@@ -59,11 +60,11 @@ function Footer() {
                         <h1 className='text-xl font-bold'>Community</h1>
                     </div>
                     <div className='flex flex-col gap-5'>
-                        <h1>Help Center</h1>
-                        <h1>Forum</h1>
+                        <Link to='#'className='hover:text-[#ff9b00]'>Help Center</Link>
+                        <Link to='#'className='hover:text-[#ff9b00]'>Forum</Link>
                         <Link to='/research-and-publications' className='hover:text-[#FF9B00]'>Research and Publications</Link>
-                        <h1>Webinars</h1>
-                        <h1>Professionals</h1>
+                        <Link to='#'className='hover:text-[#ff9b00]'>Webinars</Link>
+                        <Link to='#'className='hover:text-[#ff9b00]'>Professionals</Link>
                     </div>
                 </div>
             </div>
