@@ -10,6 +10,7 @@ import Programs from './components/Programs/Programs';
 import Program from './components/Programs/Program/Program';
 import ResearchPublications from './components/ResearchPublications/ResearchPublications';
 import Careers from './components/Careers/Careers';
+import RegistrationForm from './components/RegistrationForm/RegistrationForm';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path='/program' element={<Program/>}/>
         <Route path='/research-and-publications' element={<ResearchPublications/>}/>
         <Route path='/careers' element={<Careers/>}/>
+        <Route path='/registration-form' element={<RegistrationForm/>}/>
       </Routes>
     </div>
   );

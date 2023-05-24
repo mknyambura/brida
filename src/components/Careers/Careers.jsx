@@ -10,6 +10,7 @@ import banner1 from '../../images/Banner1.png'
 
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 function Careers() {
   return (
@@ -161,7 +162,9 @@ function Careers() {
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
                     Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                 </p>
-                <button className=' text-white bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-6 py-4 rounded-3xl m-6 font-bold w-[30%]'>Get Started</button>
+                <Link to='/registration-form'>
+                    <button className=' text-white bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-6 py-4 rounded-3xl m-6 font-bold w-[30%]'>Get Started</button>
+                </Link>
             </div>
         </div>
         <div className='flex'>
