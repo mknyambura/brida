@@ -1,4 +1,6 @@
 import React from 'react'
+
+import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
@@ -32,7 +34,7 @@ function Programs() {
         <div className='flex flex-col gap-8'>
             <div className='text-black flex flex-row items-center justify-evenly m-16'>
                 <div className='flex flex-col justify-between w-1/2 gap-8'>
-                    <h1 className='text-5xl font-bold '>Informatic Engineering</h1>
+                    <Link to='/program'><h1 className='text-5xl font-bold '>Informatic Engineering</h1></Link>
                     <p className='text-slate-500'>Make it easier for all students to do learning through digital media with existing media making it easier for students to learn anywhere and anytime.  anywhere and anytime.</p>
                     <div className='flex flex-row border border-[#FF9B00] rounded-xl'>
                         <div className='w-full flex flex-col gap-4 px-4 py-4'>
@@ -46,12 +48,12 @@ function Programs() {
                     </div>
                 </div>
                 
-                <img src={image1} alt="" className='w-1/4'/>
+                <img src={image1} alt="" className='w-[40%]'/>
             </div>
-
+            
             <div className='text-black flex flex-row-reverse items-center justify-evenly m-16'>
                 <div className='flex flex-col justify-between w-1/2 gap-8'>
-                    <h1 className='text-5xl font-bold '>Software Engineering</h1>
+                    <Link to='/program'><h1 className='text-5xl font-bold '>Software Engineering</h1></Link>
                     <p className='text-slate-500'>Make it easier for all students to do learning through digital media with existing media making it easier for students to learn anywhere and anytime.  anywhere and anytime.</p>
                     <div className='flex flex-row border border-[#FF9B00] rounded-xl'>
                         <div className='w-full flex flex-col gap-4 px-4 py-4'>
@@ -65,12 +67,12 @@ function Programs() {
                     </div>
                 </div>
                 
-                <img src={image2} alt="" className='w-1/4'/>
+                <img src={image2} alt="" className='w-[40%]'/>
             </div>
 
             <div className='text-black flex flex-row items-center justify-evenly m-16'>
                 <div className='flex flex-col justify-between w-1/2 gap-8'>
-                    <h1 className='text-5xl font-bold '>Electric Engineering</h1>
+                    <Link to='/program'><h1 className='text-5xl font-bold '>Electrical Engineering</h1></Link>
                     <p className='text-slate-500'>Make it easier for all students to do learning through digital media with existing media making it easier for students to learn anywhere and anytime.  anywhere and anytime.</p>
                     <div className='flex flex-row border border-[#FF9B00] rounded-xl'>
                         <div className='w-full flex flex-col gap-4 px-4 py-4'>
@@ -84,12 +86,14 @@ function Programs() {
                     </div>
                 </div>
                 
-                <img src={image3} alt="" className='w-1/4'/>
+                <img src={image3} alt="" className='w-[40%]'/>
             </div>
 
             <div className='text-black flex flex-row-reverse items-center justify-evenly m-16'>
                 <div className='flex flex-col justify-between w-1/2 gap-8'>
-                    <h1 className='text-5xl font-bold '>Visual Designer</h1>
+                    <Link to='/program'>
+                        <h1 className='text-5xl font-bold '>Visual Designer</h1>
+                    </Link>
                     <p className='text-slate-500'>Make it easier for all students to do learning through digital media with existing media making it easier for students to learn anywhere and anytime.  anywhere and anytime.</p>
                     <div className='flex flex-row border border-[#FF9B00] rounded-xl'>
                         <div className='w-full flex flex-col gap-4 px-4 py-4'>
@@ -103,7 +107,7 @@ function Programs() {
                     </div>
                 </div>
                 
-                <img src={image4} alt="" className='w-1/4'/>
+                <img src={image4} alt="" className='w-[40%]'/>
             </div>
         </div>
 

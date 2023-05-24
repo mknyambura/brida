@@ -6,6 +6,7 @@ import twitter from '../../images/twitter.png'
 import instagram from '../../images/Instagram.png'
 import linkedin from '../../images/linkedin.png'
 import youtube from '../../images/YouTube.png'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -33,7 +34,7 @@ function Footer() {
                         <h1 className='text-xl font-bold'>Pages</h1>
                     </div>
                     <div className='flex flex-col gap-5'v>
-                        <h1>Home</h1>
+                        <Link to='/'>Home</Link>
                         <h1>Portfolios</h1>
                         <h1>Services</h1>
                         <h1>Works</h1>
@@ -49,7 +50,7 @@ function Footer() {
                         <h1>Terms Conditions</h1>
                         <h1>Privacy Policy</h1>
                         <h1>Cookies</h1>
-                        <h1>Careers</h1>
+                        <Link to='/careers' className='hover:text-[#FF9B00]'>Careers</Link>
                     </div>
                 </div>
 
@@ -60,6 +61,7 @@ function Footer() {
                     <div className='flex flex-col gap-5'>
                         <h1>Help Center</h1>
                         <h1>Forum</h1>
+                        <Link to='/research-and-publications' className='hover:text-[#FF9B00]'>Research and Publications</Link>
                         <h1>Webinars</h1>
                         <h1>Professionals</h1>
                     </div>

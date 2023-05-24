@@ -11,7 +11,7 @@ function Header() {
     <>
         <div className="bg-[#060919] flex flex-col" >
             <div className='flex items-center justify-between bg-head bg-cover bg-center px-6 py-6 mr-6 ml-6 mb-6' style={{backgroundImage: "url('/images/Grid.png')"}}>
-                <div>
+                <div id='home'>
                     <Link to='/'>
                         <img src={logo} alt=""/>
                     </Link>

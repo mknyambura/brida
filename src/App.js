@@ -7,6 +7,9 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Articles from './components/Articles/Articles';
 import Article from './components/Articles/Article/Article'
 import Programs from './components/Programs/Programs';
+import Program from './components/Programs/Program/Program';
+import ResearchPublications from './components/ResearchPublications/ResearchPublications';
+import Careers from './components/Careers/Careers';
 
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
         <Route path='/articles' element={<Articles/>}/>
         <Route path='/article' element={<Article/>}/>
         <Route path='/programs' element={<Programs/>}/>
+        <Route path='/program' element={<Program/>}/>
+        <Route path='/research-and-publications' element={<ResearchPublications/>}/>
+        <Route path='/careers' element={<Careers/>}/>
       </Routes>
     </div>
   );
