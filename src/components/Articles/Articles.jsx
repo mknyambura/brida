@@ -65,70 +65,70 @@ function Articles() {
                 <h1>Software</h1>
             </div>
             <div className='flex flex-col mt-16 mb-16 mr-6 ml-6 gap-8 items-center'>
-                <div className='flex flex-row flex-wrap items-center'>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article1} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article2} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article3} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article4} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article5} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article6} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article7} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article8} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
-                        <div className='flex flex-col gap-8 w-1/3 items-center' >
-                            <Link to='/article' className='items-center'>
-                                <img src={article9} alt="" width={200}/>
-                                <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
-                                <p className='text-slate-400 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </Link>
-                        </div>
+                <div className='grid sm:grid-cols-2 md:grid-cols2 lg:grid-cols-3 items-center sm:gap-8 md:gap-8'>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article1} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article2} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article3} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article4} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article5} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article6} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article7} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article8} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
+                    <div className='flex flex-col gap-8 lg:w-1/3 items-center' >
+                        <Link to='/article' className='items-center'>
+                            <img src={article9} alt="" width={200}/>
+                            <h1 className='text-black text-2xl font-bold'>Tips on choosing a university</h1>
+                            <p className='text-slate-400 lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </Link>
+                    </div>
                 </div>
                 <button className='bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-7 py-3 rounded-3xl font-bold'>View All</button>
             </div>

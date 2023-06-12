@@ -25,7 +25,7 @@ function Article() {
         </div>
       </div>
 
-      <div className='flex flex-row mt-16 justify-between gap-8 m-18 text-black w-full'>
+      <div className='flex sm:flex-col md:flex-col lg:flex-row mt-16 justify-between gap-8 m-18 text-black w-full'>
         <div className='flex flex-col gap-6 text-black w-3/4 ml-16'>
           <h1 className='font-bold text-black'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt quo reprehenderit ad ea cupiditate nam error dicta illo, quam itaque numquam facere impedit placeat soluta hic, fuga natus. Hic, quis.</h1>
           <p className='text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officia iste sequi impedit amet ducimus cupiditate at labore autem, excepturi tempore libero eveniet nisi ex perferendis! Eos quidem dolorum accusamus.
@@ -78,36 +78,38 @@ function Article() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quos error nam neque nostrum quasi aliquid odit? Obcaecati, mollitia unde, voluptates quas ratione fugit nostrum repellendus deserunt maiores, magnam sed.
           </p>
         </div>
-        <div className='text-black w-1/4 mr-16'>
+        <div className='flex flex-col text-black lg:w-1/4 mr-16'>
           <h1 className='text-black font-bold text-xl mb-4'>Popular Article</h1>
-          <div>
-            <div className='flex flex-col items-center mb-4'>
-              <img src={article1} alt="" />
+          <div className='flex sm:flex-row md:flex-row lg:flex-col items-center justify-between w-full gap-8'>
+            <div>
+              <div className='flex flex-col items-center mb-4'>
+                <img src={article1} alt="" />
+              </div>
+              <div className='flex flex-col justify-evenly mb-8'>
+                <h1 className='font-bold text-lg'>Tips on choosing a university</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis blanditiis quas atque quos a accusamus libero vero nam, explicabo delectus eius sequi sit praesentium, voluptas, obcaecati voluptatibus nulla officia illum.</p>
+                <h1 className='text-[#FF9B00]'>Read More</h1>
+              </div>
             </div>
-            <div className='flex flex-col justify-evenly mb-8'>
-              <h1 className='font-bold text-lg'>Tips on choosing a university</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis blanditiis quas atque quos a accusamus libero vero nam, explicabo delectus eius sequi sit praesentium, voluptas, obcaecati voluptatibus nulla officia illum.</p>
-              <h1 className='text-[#FF9B00]'>Read More</h1>
+            <div>
+              <div className='flex flex-col items-center mb-4'>
+                <img src={article2} alt="" />
+              </div>
+              <div className='flex flex-col justify-evenly mb-8'>
+                <h1 className='font-bold text-lg'>Tips on choosing a university</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis blanditiis quas atque quos a accusamus libero vero nam, explicabo delectus eius sequi sit praesentium, voluptas, obcaecati voluptatibus nulla officia illum.</p>
+                <h1 className='text-[#FF9B00]'>Read More</h1>
+              </div>
             </div>
-          </div>
-          <div>
-            <div className='flex flex-col items-center mb-4'>
-              <img src={article2} alt="" />
-            </div>
-            <div className='flex flex-col justify-evenly mb-8'>
-              <h1 className='font-bold text-lg'>Tips on choosing a university</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis blanditiis quas atque quos a accusamus libero vero nam, explicabo delectus eius sequi sit praesentium, voluptas, obcaecati voluptatibus nulla officia illum.</p>
-              <h1 className='text-[#FF9B00]'>Read More</h1>
-            </div>
-          </div>
-          <div>
-            <div className='flex flex-col items-center mb-4'>
-              <img src={article3} alt="" />
-            </div>
-            <div className='flex flex-col justify-evenly mb-8'>
-              <h1 className='font-bold text-lg'>Tips on choosing a university</h1>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis blanditiis quas atque quos a accusamus libero vero nam, explicabo delectus eius sequi sit praesentium, voluptas, obcaecati voluptatibus nulla officia illum.</p>
-              <h1 className='text-[#FF9B00]'>Read More</h1>
+            <div>
+              <div className='flex flex-col items-center mb-4'>
+                <img src={article3} alt="" />
+              </div>
+              <div className='flex flex-col justify-evenly mb-8'>
+                <h1 className='font-bold text-lg'>Tips on choosing a university</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis blanditiis quas atque quos a accusamus libero vero nam, explicabo delectus eius sequi sit praesentium, voluptas, obcaecati voluptatibus nulla officia illum.</p>
+                <h1 className='text-[#FF9B00]'>Read More</h1>
+              </div>
             </div>
           </div>
         </div>

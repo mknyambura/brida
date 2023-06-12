@@ -25,8 +25,8 @@ function RegistrationForm() {
                   <h1 className='text-[#FF9B00] m-16 flex flex-row items-center'><SlArrowLeft className='mr-2' />Back to Homepage</h1>
                 </Link>
         
-                <div className='flex flex-row gap-8 justify-between m-16'>
-                    <div className='flex flex-col w-[40%]'>
+                <div className='flex sm:flex-col md:flex-col lg:flex-row gap-8 justify-between m-16'>
+                    <div className='flex flex-col lg:w-[40%]'>
                         <img src={girl} alt="" />
                         <h1 className='font-bold text-5xl text-center'>Registration form to Join Brida</h1>
                     </div>
@@ -37,7 +37,7 @@ function RegistrationForm() {
                             <input type="number" placeholder='Phone Number' className='bg-transparent px-2 py-2 border border-slate-800 rounded-lg'/>
                         </div>
                         <div className='flex flex-col gap-8'>
-                            <h1>Select Role</h1>
+                            <h1 className='mt-4 mb-4 font-bold text-2xl'>Select Role</h1>
                             <div className='text-white font-semibold grid grid-cols-2 gap-8'>
                                 <div className='flex flex-row px-2 py-2 rounded-xl items-center gap-8 border border-slate-800'>
                                     <Radio  name="type" ripple={true} />

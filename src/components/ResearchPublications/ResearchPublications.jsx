@@ -36,8 +36,8 @@ function ResearchPublications() {
             <h1>Software</h1>
         </div>
 
-        <div className='flex flex-wrap items-center justify-center gap-8 mb-24 mt-16'>
-            <div className='flex flex-col w-[40%]'>
+        <div className='sm:grid md:grid lg:flex sm:flex-cols-1 md:grid-cols-2 lg:flex-row lg:flex-wrap items-center justify-center gap-8 mb-24 mt-16'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={redDocument} alt="" />
@@ -51,7 +51,7 @@ function ResearchPublications() {
                 <div className='bg-red-500 h-[1px] '></div>
             </div>
 
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row items-center'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={blueDocument} alt="" />
@@ -65,7 +65,7 @@ function ResearchPublications() {
                 <div className='bg-red-500 h-[1px] '></div>
             </div>
 
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={greenDocument} alt="" />
@@ -79,7 +79,7 @@ function ResearchPublications() {
                 <div className='bg-red-500 h-[1px] '></div>
             </div>
 
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={redDocument} alt="" />
@@ -93,7 +93,7 @@ function ResearchPublications() {
                 <div className='bg-red-500 h-[1px] '></div>
             </div>
 
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={blueDocument} alt="" />
@@ -107,7 +107,7 @@ function ResearchPublications() {
                 <div className='bg-red-500 h-[1px] '></div>
             </div>
 
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={greenDocument} alt="" />
@@ -121,7 +121,7 @@ function ResearchPublications() {
                 <div className='bg-red-500 h-[1px] '></div>
             </div>
 
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={redDocument} alt="" />
@@ -135,7 +135,7 @@ function ResearchPublications() {
                 <div className='bg-red-500 h-[1px] '></div>
             </div>
 
-            <div className='flex flex-col w-[40%]'>
+            <div className='flex flex-col lg:w-[40%] sm:px-6 sm:py-6'>
                 <div className='text-black flex flex-row'>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={blueDocument} alt="" />

@@ -7,9 +7,6 @@ import check from '../../images/PolygonIcon.png'
 import student1 from '../../images/student1.png'
 import student2 from '../../images/student2.png'
 import chart from '../../images/Img.png'
-import banner1 from '../../images/Banner1.png'
-import conversation from '../../images/flow-chart-preview.png'
-import spiral from '../../images/Path.png'
 
 
 import chooseUniversity1 from '../../images/Rectangle2481.png'
@@ -24,6 +21,7 @@ import { TbLocation, TbLocationFilled } from 'react-icons/tb'
 import { BsGlobe, BsWallet } from 'react-icons/bs'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
+import RegisterSteps from '../../RegisterSteps/RegisterSteps'
 
 
 
@@ -33,7 +31,7 @@ function Home() {
         <div className="bg-[#060919] flex flex-col" >
             <Header/>
 
-            <div className='flex flex-row items-center m-6 justify-center'>
+            <div className='flex sm:flex-col md:flex-col lg:flex-row items-center m-6 justify-center'>
                 <div className='flex flex-col gap-12'>
                     <h1 className='font-extrabold text-7xl'>Gen-z as modern world <span className='text-[#FF9B00]'>pillars</span></h1>
                     <p className='text-slate-300'>Cybersecurity is the practice of protecting systems and programs from digital attacks. These are referred to as cyberattacks.</p>
@@ -43,7 +41,7 @@ function Home() {
                     <img src={student} alt="" />
                 </div>
             </div>
-            <button className='bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-6 py-4 rounded-3xl m-6 font-bold w-[11%]'>Get Started</button>
+            <button className='bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-6 py-4 rounded-3xl m-6 font-bold sm:w-1/4 md:w-1/4 lg:w-[11%]'>Get Started</button>
             <div>
                 <img src={banner} alt="" />
             </div>
@@ -51,30 +49,30 @@ function Home() {
         
         {/* #2  */}
         <div className='mt-24 ml-6 mr-6'>
-            <div className='flex flex-row justify-evenly mb-28'>
-                <div className='flex flex-row gap-4'>
-                    <button className='bg-[#0000FF] rounded-full text-white text-2xl px-2 py-2'>
-                        <TbLocationFilled />
+            <div className='flex sm:flex-col md:flex-col lg:flex-row items-center justify-evenly mb-28 sm:gap-8 md:gap-8'>
+                <div className='flex sm:flex-col md:flex-col lg:flex-row sm:items-center md:items-center gap-4'>
+                    <button className='bg-[#0000FF] rounded-full sm:w-[15%] md:w-[15%] items-center justify-center text-white text-2xl px-2 py-2'>
+                        <TbLocationFilled className='items-center justify-center'/>
                     </button>
                     <p className='text-black'>Amet minim mollit non deserunt ullamco.</p>
                 </div>
 
-                <div className='flex flex-row gap-4'>
-                    <button className='bg-[#ED1C24] rounded-full text-white text-2xl px-2 py-2'>
-                        <BsGlobe />
+                <div className='flex sm:flex-col md:flex-col lg:flex-row sm:items-center md:items-center gap-4'>
+                    <button className='bg-[#ED1C24] rounded-full sm:w-[15%] md:w-[15%] items-center justify-center text-white text-2xl px-2 py-2'>
+                        <BsGlobe className='items-center justify-center'/>
                     </button>
                     <p className='text-black'>Amet minim mollit non deserunt ullamco.</p>
                 </div>
 
-                <div className='flex flex-row gap-4'>
-                    <button className='bg-[#FF9B00] rounded-full text-white text-2xl px-2 py-2 font-bold'>
-                        <BsWallet />
+                <div className='flex sm:flex-col md:flex-col lg:flex-row sm:items-center md:items-center gap-4'>
+                    <button className='bg-[#FF9B00] rounded-full sm:w-[15%] md:w-[15%] items-center justify-center text-white text-2xl px-2 py-2 font-bold'>
+                        <BsWallet className='items-center justify-center'/>
                     </button>
                     <p className='text-black'>Amet minim mollit non deserunt ullamco.</p>
                 </div>
             </div>
 
-            <div className='flex flex-row items-center justify-between mb-28'>
+            <div className='flex sm:flex-col md:flex-col lg:flex-row items-center justify-between mb-28'>
                 <div>
                     <img src={student1} alt="" />
                 </div>
@@ -106,11 +104,11 @@ function Home() {
                 </div>
             </div>
 
-            <div className='flex flex-row px-10  mb-16 items-center justify-between '>
+            <div className='flex sm:flex-col lg:flex-row px-10  mb-16 items-center justify-between '>
                 <div className='mr-20 flex flex-col gap-20'>
                     <h1 className='text-black font-bold text-6xl'>Specify the time and day of private class</h1>
                     <p className='text-slate-600'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button className='bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-7 py-3 rounded-3xl w-[30%] font-bold'>Get Started</button>
+                    <button className='bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-7 py-3 rounded-3xl sm:w-[36%] lg:w-[30%] font-bold'>Get Started</button>
                 </div>
                 <div>
                     <img src={student2} alt="" />
@@ -121,65 +119,32 @@ function Home() {
         {/* 3 */}
 
         <div className='flex flex-col relative mb-16 '>
-            <div className='relative bg-gradient-to-r from-[#FF9C01] opacity-20 to-[#F7F5ED] h-[600px] w-1/2'>.</div>
-            <div className='top-[30%] absolute flex flex-row justify-evenly gap-10'>
+            <div className='relative bg-gradient-to-r from-[#FF9C01] opacity-20 to-[#F7F5ED] h-[600px]'>.</div>
+            <div className='px-6 py-6 sm:top-[20%] md:top-[20%] lg:top-[10%] absolute flex flex-row justify-evenly gap-10'>
                 <div className=''>
                     <img src={chart} alt="" className='relative'/>
                 </div>
                 
-                <div className='flex flex-col gap-8 items-center justify-center'>
-                    <h1 className='text-black font-bold text-6xl'>Supported by premium software</h1>
+                <div className='flex flex-col gap-8 items-center justify-center sm:w-[80%]'>
+                    <h1 className='text-black font-bold sm:text-4xl lg:text-6xl'>Supported by premium software</h1>
                     <p className='text-slate-400'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button className='bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-7 py-3 rounded-3xl w-1/4 font-bold'>Get Started</button>
+                    <button className='bg-gradient-to-r from-[#FF9B00] to-[#ED1C24] px-7 py-3 rounded-3xl lg:w-1/4 font-bold'>Get Started</button>
                 </div>
             </div>
         </div>
 
         {/* 4 */}
 
-        <div className='bg-[#060919] flex flex-col justify-evenly items-center mb-16'>
-            <div className='flex flex-row'>
-                <div className='flex w-full items-center justify-center'>
-                    <img src={conversation} alt="" />
-                </div>
-                <div className='flex flex-row '>
-                    <div className='flex flex-col gap-8 m-6'>
-                        <h1 className='font-bold text-6xl'>Steps that you can follow to register</h1>
-                        <p className='text-slate-400'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        
-                        <div className='flex flex-col relative pt-4 pb-4'>
-                            <div className='flex flex-row items-center w-1/3 absolute bottom-0'>
-                                <img src={check} alt="" />
-                                <h1>Step One</h1>
-                            </div>
-                            <div className='flex flex-row items-center w-1/3 absolute left-[33.3%] bottom-auto top-auto'>
-                                <img src={check} alt="" />
-                                <h1>Step Number Two</h1>
-                            </div>
-                            <div className='flex flex-row items-center w-1/3 absolute right-0 top-[108px]'>
-                                <img src={check} alt="" />
-                                <h1>Number 3</h1>                        
-                            </div>
-                        </div>
-                        <div className=''>
-                            <img src={spiral} alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='flex'>
-                <img src={banner1} alt="" />
-            </div>
-        </div>
+        <RegisterSteps/>
 
         {/* 5 */}
 
         <div className='flex flex-col items-center mb-16'>
-            <div className='flex flex-col items-center w-1/2 mb-16 align-center text-center justify-center gap-8'>
-                <h1 className='font-bold text-6xl text-black'>Read our blogs to learn more about cyber security</h1>
+            <div className='flex flex-col items-center lg:w-3/4 mb-16 align-center text-center justify-center gap-8 px-6 py-6'>
+                <h1 className='font-bold sm:text-5xl md:text-5xl lg:text-6xl text-black'>Read our blogs to learn more about cyber security</h1>
                 <p className='text-slate-400'>Our CyberNews Investigation team uses white hacking techniques to find cybersecurity threats & vulnerabilities</p>
             </div>
-            <div className='flex flex-row gap-8 justify-between items-center  mb-16'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between items-center  mb-16'>
                 <div className='flex flex-col items-center gap-4'>
                     <img src={chooseUniversity1} alt="" className='mb-12'/>
                     <h1 className='text-black font-bold text-3xl'>Tips on choosing a university</h1>
